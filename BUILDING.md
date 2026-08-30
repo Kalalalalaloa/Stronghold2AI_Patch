@@ -23,8 +23,10 @@ git clone https://github.com/Kalalalalaloa/Stronghold2AI_Patch.git
 Set-Location .\Stronghold2AI_Patch
 ```
 
-The twelve files listed in `SOURCE_MANIFEST.sha256` are byte-for-byte identical to
-the source files in the submitted Nexus ZIP. The ZIP itself has SHA256:
+The nine executable source files listed in `SOURCE_MANIFEST.sha256` are
+byte-for-byte identical to the submitted Nexus ZIP. The exact original twelve-file
+snapshot is preserved at tag `nexus-v4.5` and recorded in
+`NEXUS_PACKAGE_MANIFEST.sha256`. The ZIP itself has SHA256:
 
 ```text
 094FD7930E3F26252B6CF336AD198A609F4E632AED81D1FF33F19B8E52D7C282
@@ -96,7 +98,7 @@ into the game directory. Restore is available through the launcher or
 
 ## Package layout
 
-The submitted Nexus ZIP is the repository's release files placed below one folder
-named `Stronghold2AIOverhaul-v4.5-StrategicBuildOrder-PublicSafe`. No compilation
-or binary embedding is performed. `NEXUS_REVIEW.md` describes the security-relevant
+The submitted Nexus ZIP places the release files below one folder named
+`Stronghold2AIOverhaul-v4.5-StrategicBuildOrder-PublicSafe`. No compilation or
+binary embedding is performed. `NEXUS_REVIEW.md` describes the security-relevant
 behavior and maps every release component to its source.

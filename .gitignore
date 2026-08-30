@@ -5,6 +5,7 @@
 !/.gitattributes
 !/BUILDING.md
 !/NEXUS_REVIEW.md
+!/NEXUS_PACKAGE_MANIFEST.sha256
 !/SOURCE_MANIFEST.sha256
 !/Launcher.cmd
 !/PATCH_NOTES_v4.5.md

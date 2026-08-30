@@ -9,9 +9,11 @@
 - ZIP contents: 12 readable source/documentation files
 - Bundled EXE, DLL, AIC, DAT, PDB, or other binary game files: none
 
-The twelve release files are committed here without source changes. Their hashes
-are recorded in `SOURCE_MANIFEST.sha256`. `BUILDING.md` gives the clean-checkout
-generation and validation procedure.
+The nine executable source files are committed here without changes. Their hashes
+are recorded in `SOURCE_MANIFEST.sha256`. The exact original twelve-file snapshot,
+including the documentation shipped in the ZIP, is preserved at tag `nexus-v4.5`
+and recorded in `NEXUS_PACKAGE_MANIFEST.sha256`. `BUILDING.md` gives the
+clean-checkout generation and validation procedure.
 
 ## Source map
 
@@ -40,8 +42,7 @@ The remaining three files are the user README, patch notes, and manual test plan
   creates a timestamped backup below the project directory.
 - The optional game launch action opens Steam URI `steam://rungameid/40960`.
 - The launcher can open the project directory in Windows Explorer.
-- The release includes no experimental DLL/proxy-loader code; that is a separate,
-  later development track and is not part of the submitted v4.5 PublicSafe ZIP.
+- The release includes no DLL or proxy-loader code.
 
 ## Redistributed game content
 
