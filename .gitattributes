@@ -1,0 +1,2 @@
+# Preserve the exact LF byte representation used by the submitted Nexus ZIP.
+* text eol=lf

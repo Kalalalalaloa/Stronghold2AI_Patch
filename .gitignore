@@ -1,0 +1,23 @@
+/*
+
+# Public Nexus review material for the v4.5 PublicSafe package.
+!/.gitignore
+!/.gitattributes
+!/BUILDING.md
+!/NEXUS_REVIEW.md
+!/SOURCE_MANIFEST.sha256
+!/Launcher.cmd
+!/PATCH_NOTES_v4.5.md
+!/README.md
+!/TEST_PLAN_v4.5.md
+
+!/tools/
+/tools/*
+!/tools/analyze_game_rules.py
+!/tools/build_ai_overhaul.py
+!/tools/Build-Stronghold2AIProfiles.ps1
+!/tools/Build-Stronghold2GameRulesPatch.ps1
+!/tools/Install-Stronghold2AIOverhaul.ps1
+!/tools/Restore-Stronghold2AIOverhaul.ps1
+!/tools/Start-Stronghold2AIOverhaul.ps1
+!/tools/Validate-Stronghold2AIOverhaul.ps1
